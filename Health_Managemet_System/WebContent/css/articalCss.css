@@ -1,0 +1,99 @@
+@charset "ISO-8859-1";
+
+.h-titel .h1-titel{
+	color: #1e88e5;
+	margin-right: 10px;
+}
+
+.h-titel{
+	
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.h-sub-titel{
+	color: grey;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+ 
+}
+
+
+.card-body .btn {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #1e88e5;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card-body .btn:hover {
+  opacity: 0.7;
+}
+
+.card-title{
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+
+
+
+
+.hedder-atricle{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #1e88e5;
+	margin-bottom: 10px;
+}
+
+
+.img-article{
+	max-width: 400px;
+	max-height: 400px;
+}
+
+.summary-article{
+	
+	margin-top: 10px;
+	text-align: justify;
+	
+}
+
+.details-article{
+	text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

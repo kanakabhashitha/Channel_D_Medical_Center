@@ -1,0 +1,201 @@
+@charset "ISO-8859-1";
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;  
+}
+a,a:visited, a:hover, a:focus {
+    text-decoration: none;
+    color: #000;
+}
+
+li,
+a,
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+    height: auto;
+    margin: 0;
+}
+
+.logo {
+    cursor: pointer;
+    width: 250px;
+    height: 75px;
+}
+
+.nav_list {
+    list-style: none;
+
+}
+
+.nav_list li {
+    display: inline-block;
+    padding: 0px 30px;
+
+}
+
+.nav_list li a {
+    transition: all(0.3s ease 0s);
+    font-family: sans-serif;
+    font-size: 20px;
+    transition-duration: 0.4s;
+
+}
+
+.nav_list li a:hover {
+    color: blue;
+    border-bottom: 2px solid blue;
+    transition: border-length 1s linear;
+    padding-bottom: 2px;
+
+}
+
+#get_started_btn {
+    background-color: #02d93b;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+#get_started_btn:hover {
+    background-color: #00f500;
+}
+
+#login_btn {
+
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 4px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #02d93b;
+    border-radius: 5px;
+    font-family: sans-serif;
+
+}
+
+#login_btn:hover {
+    background-color: #02d93b;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+
+
+/*footer*/
+footer{
+    margin: 2% 5%;
+}
+
+footer ul li{
+    text-decoration: none;
+    list-style: none;
+    
+}
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h3,h4{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+
+/*Map*/
+.mapout {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 600px;
+}
+
+.map_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 600px;
+}
+
+.quick_links ul li{
+    margin-top: 15px;
+    padding: 5px; 
+}
+
+.info ul li{
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.contact_us ul li{
+    margin-top: 15px;
+    padding: 5px; 
+}
+
+/*social media icons */
+.social{
+    margin-top: 40px;
+    display:flex;
+    justify-content:space-between;
+    
+}
+
+.social i{
+    margin: 2px 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    color: #eee;
+    
+}
+
+i.fa-facebook-f{
+    background: #3b5998;
+}
+
+i.fa-twitter{
+    background: #00acee;
+}
+
+i.fa-instagram{
+    background: #ff4500;
+}
+
+i.fa-youtube{
+    background: #FF0000;
+}

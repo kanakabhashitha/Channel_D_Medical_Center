@@ -1,0 +1,194 @@
+@charset "ISO-8859-1";
+
+
+.s-image img{
+	
+	width: 800px;
+}
+
+.s-image img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  opacity: 0.3;
+}
+
+.s-titel{
+	  text-transform: uppercase;
+	  font-size: 30px;
+	  color: #1e88e5;
+	  font-weight: bold;
+}
+
+.s-minititel{
+	 text-transform: uppercase;
+	 font-size: 18px;
+	 margin-bottom: -15px;
+	 color: #00b33c;
+}
+
+.button4 {
+  background-color: #1e88e5;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  padding-left:25px;
+  padding-right: 25px;
+  border-radius: 12px;
+}
+
+
+.s-details{
+	font-size: 18px;
+}
+
+.s-content{
+	margin-top: 40px;
+}
+
+
+.tagline .tagline-titel{
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.tagline .tagline-details{
+	margin-top: -15px;
+}
+
+.tagline .tagline-img{
+	padding-top: 15px;
+}
+
+.tagline{
+	background: #f2f2f2;
+}
+
+.service-sider{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.service-sider .st{
+	 text-transform: uppercase;
+	 font-size: 18px;
+}
+
+
+
+.service-sider .cCaption{
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+ 	width: 825px;
+ 	margin-left: -123px;
+ 	margin-bottom: -20px;
+}
+
+
+
+.service-sider .sBtn .sBtn1{
+  background-color: #cce6ff;
+  border: none;
+  color: white !important;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin-bottom : 7px;
+
+  height: 200px;
+}
+.service-sider .sBtn .sBtn2{
+  background-color: #cce6ff;
+  border: none;
+  color: white !important;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin-top:4px;
+
+  height: 200px;
+}
+
+.service-sider .sBtn{
+	
+	margin-left: -10px;
+}
+
+
+
+
+
+
+
+.otherSevice {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #1e88e5;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.otherSevice:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #1e88e5;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.otherSevice:hover .overlay2 {
+  width: 100%;
+}
+
+.otherServicConainer{
+	margin-bottom: 100px;
+}
